@@ -12,3 +12,4 @@ class Friend extends React.Component {
     )
   }
 }
+
