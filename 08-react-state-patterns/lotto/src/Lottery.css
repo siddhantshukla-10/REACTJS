@@ -1,0 +1,10 @@
+.Lottery{
+  border: 1px solid blanchedalmond;
+}
+
+.Lottery-button {
+  margin-top: 10px;
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
