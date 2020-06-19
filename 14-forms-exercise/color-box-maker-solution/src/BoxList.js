@@ -7,6 +7,7 @@ class BoxList extends Component {
     super(props);
     this.state = { boxes: [] };
     this.create = this.create.bind(this);
+    this.remove = this.remove.bind(this);
   }
   remove(id) {
     this.setState({
@@ -26,7 +27,7 @@ class BoxList extends Component {
         width={box.width}
         height={box.height}
         color={box.color}
-        removeBox={() => this.remove(box.id)}
+        removeBox={this.remove}
       />
     ));
     return (
